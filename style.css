@@ -1,0 +1,20 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+    font-style: oblique;
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+    font-size: 20px;
+}
+
+button {
+    font-size: 15px;
+}
+
+#content {
+   overflow: hidden;
+   object-fit: scale-down;
+}
