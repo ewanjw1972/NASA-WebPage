@@ -5,21 +5,37 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>NASA Pictures</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>NASA Astronomy Picture Of the Day</h1>
-    <button type="button" id="search">View APOD</button>
-    <div id="content">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>NASA Pictures</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="heading">
+            <h1>NASA - Astronomy Picture Of the Day</h1>
+        </div>
+        <div>
+            <button type="button" id="search">View</button>
+        </div>
         <br>
-    </div>
-  </body>
-  <script src="nasa.js"></script>
+        <div id="explanation"></div>
+        <div id="content"></div>
+        <div id="headingA">
+            <h1>NASA - Mars Rover Photo</h1>
+        </div>
+        <div>
+            <button type="button" id="search1">View</button>
+        </div>
+        <div id="contenta">
+            <br>
+        </div>
+        <div id="contentb">
+            <br>
+        </div>
+    </body>
+    <script src="nasa.js"></script>
 </html>

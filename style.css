@@ -1,20 +1,42 @@
-* {
-    font-family: 'Orbitron', sans-serif;
-    font-style: oblique;
-    font-size: medium;
+html, body {
+    background-color: coral;
+    height: 100%;
+    margin: 0px;
 }
 
-h1 {
+#heading, #headingA {
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
     text-align: center;
     font-size: large;
     font-size: 20px;
+    text-decoration: underline;
 }
+
+#heading:hover { text-shadow: 0 0 5px #000000 }
+#headingA:hover { text-shadow: 0 0 5px #000000 }
 
 button {
     font-size: 15px;
+    position: relative; left: 720px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    display: inline;
 }
 
-#content {
-   overflow: hidden;
-   object-fit: scale-down;
+button:hover {
+    background-color: white;
+    color: black;
 }
+
+#content, #contenta {
+   text-align: center;
+   width: min-content;
+   height: min-content;
+   position: relative;
+   padding-left: 250px;
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+}
+
